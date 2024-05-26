@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Form|The Odin Project</title>
+</head>
+<body>
+   <div class="izquierda">
+        <div class="ContenedorLogo">
+            <div class="contenedor">
+                <div class="logo"><img src="images/odin-lined.png" alt="logo"></div>
+                <div class="texto"><p>ODIN</p></div>
+            </div>
+        </div>
+        <p>Photo by <a href="https://unsplash.com/es/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+   </div>
+
+   <div class="derecha">
+        <div class="primer">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="segundo">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <div>
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" placeholder="THOR">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password">
+                    <p id="alerta"></p>
+                </div>
+                <div>
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" placeholder="ODINSON">
+                
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="tel" id="phoneNumber">
+                
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmPassword">
+                </div>
+            </fieldset>
+        </div>       
+        <button>Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+   </div>
+   <script src="java.js"></script>
+</body>
+</html>
