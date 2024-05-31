@@ -175,6 +175,12 @@ body{
     box-shadow: 0px 1px 5px grey;;
 }
 
+.derecha div fieldset input:invalid{
+    outline: none;
+    border: 1px solid red;
+    box-shadow: 0px 1px 5px grey;;
+}
+
 .derecha div fieldset .invalid,
 .derecha div fieldset .invalid{
     border: 1px solid red;
